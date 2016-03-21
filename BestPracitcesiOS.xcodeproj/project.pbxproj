@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4132708041D85FAFD12E72DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8115E2E6A37E21B189EB257 /* libPods.a */; };
+		FFC94FCB1C9FA692001BC13A /* NewObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC94FCA1C9FA692001BC13A /* NewObj.m */; };
 		FFDD35AB1C9F8E9E00BEB0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35AA1C9F8E9E00BEB0EA /* main.m */; };
 		FFDD35AE1C9F8E9E00BEB0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35AD1C9F8E9E00BEB0EA /* AppDelegate.m */; };
 		FFDD35B11C9F8E9E00BEB0EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35B01C9F8E9E00BEB0EA /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		FFDD35B91C9F8E9E00BEB0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD35B71C9F8E9E00BEB0EA /* LaunchScreen.storyboard */; };
 		FFDD35C41C9F8E9E00BEB0EA /* BestPracitcesiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35C31C9F8E9E00BEB0EA /* BestPracitcesiOSTests.m */; };
 		FFDD35CF1C9F8E9E00BEB0EA /* BestPracitcesiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35CE1C9F8E9E00BEB0EA /* BestPracitcesiOSUITests.m */; };
+		FFDD35DF1C9F8EE900BEB0EA /* BPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35DE1C9F8EE900BEB0EA /* BPTestViewController.m */; };
+		FFDD35E31C9FA05300BEB0EA /* ABTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35E21C9FA05300BEB0EA /* ABTestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42BAC492EF23B69553708AFD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A8115E2E6A37E21B189EB257 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87661F57288C661DDEC93CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FFC94FC91C9FA692001BC13A /* NewObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewObj.h; sourceTree = "<group>"; };
+		FFC94FCA1C9FA692001BC13A /* NewObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewObj.m; sourceTree = "<group>"; };
 		FFDD35A61C9F8E9E00BEB0EA /* BestPracitcesiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracitcesiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD35AA1C9F8E9E00BEB0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFDD35AC1C9F8E9E00BEB0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		FFDD35CA1C9F8E9E00BEB0EA /* BestPracitcesiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestPracitcesiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD35CE1C9F8E9E00BEB0EA /* BestPracitcesiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestPracitcesiOSUITests.m; sourceTree = "<group>"; };
 		FFDD35D01C9F8E9E00BEB0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDD35DD1C9F8EE900BEB0EA /* BPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTestViewController.h; sourceTree = "<group>"; };
+		FFDD35DE1C9F8EE900BEB0EA /* BPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPTestViewController.m; sourceTree = "<group>"; };
+		FFDD35E11C9FA05300BEB0EA /* ABTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTestObject.h; sourceTree = "<group>"; };
+		FFDD35E21C9FA05300BEB0EA /* ABTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4132708041D85FAFD12E72DA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065EF3EADE912C6C6F458B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8115E2E6A37E21B189EB257 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E84E3F918E0007F444374F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42BAC492EF23B69553708AFD /* Pods.debug.xcconfig */,
+				B87661F57288C661DDEC93CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFC94FC81C9FA676001BC13A /* AfterCocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC94FC91C9FA692001BC13A /* NewObj.h */,
+				FFC94FCA1C9FA692001BC13A /* NewObj.m */,
+			);
+			path = AfterCocoaPods;
+			sourceTree = "<group>";
+		};
 		FFDD359D1C9F8E9D00BEB0EA = {
 			isa = PBXGroup;
 			children = (
 				FFDD35A81C9F8E9E00BEB0EA /* BestPracitcesiOS */,
 				FFDD35C21C9F8E9E00BEB0EA /* BestPracitcesiOSTests */,
 				FFDD35CD1C9F8E9E00BEB0EA /* BestPracitcesiOSUITests */,
+				065EF3EADE912C6C6F458B8A /* Frameworks */,
+				9E84E3F918E0007F444374F3 /* Pods */,
 				FFDD35A71C9F8E9E00BEB0EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,15 +143,18 @@
 		FFDD35A81C9F8E9E00BEB0EA /* BestPracitcesiOS */ = {
 			isa = PBXGroup;
 			children = (
+				FFC94FC81C9FA676001BC13A /* AfterCocoaPods */,
+				FFDD35A91C9F8E9E00BEB0EA /* Supporting Files */,
+				FFDD35DC1C9F8EC200BEB0EA /* TestSynx */,
+				FFDD35E01C9FA00900BEB0EA /* another */,
 				FFDD35AC1C9F8E9E00BEB0EA /* AppDelegate.h */,
 				FFDD35AD1C9F8E9E00BEB0EA /* AppDelegate.m */,
+				FFDD35B51C9F8E9E00BEB0EA /* Assets.xcassets */,
+				FFDD35BA1C9F8E9E00BEB0EA /* Info.plist */,
+				FFDD35B71C9F8E9E00BEB0EA /* LaunchScreen.storyboard */,
+				FFDD35B21C9F8E9E00BEB0EA /* Main.storyboard */,
 				FFDD35AF1C9F8E9E00BEB0EA /* ViewController.h */,
 				FFDD35B01C9F8E9E00BEB0EA /* ViewController.m */,
-				FFDD35B21C9F8E9E00BEB0EA /* Main.storyboard */,
-				FFDD35B51C9F8E9E00BEB0EA /* Assets.xcassets */,
-				FFDD35B71C9F8E9E00BEB0EA /* LaunchScreen.storyboard */,
-				FFDD35BA1C9F8E9E00BEB0EA /* Info.plist */,
-				FFDD35A91C9F8E9E00BEB0EA /* Supporting Files */,
 			);
 			path = BestPracitcesiOS;
 			sourceTree = "<group>";
@@ -119,7 +164,7 @@
 			children = (
 				FFDD35AA1C9F8E9E00BEB0EA /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FFDD35C21C9F8E9E00BEB0EA /* BestPracitcesiOSTests */ = {
@@ -140,6 +185,24 @@
 			path = BestPracitcesiOSUITests;
 			sourceTree = "<group>";
 		};
+		FFDD35DC1C9F8EC200BEB0EA /* TestSynx */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD35DD1C9F8EE900BEB0EA /* BPTestViewController.h */,
+				FFDD35DE1C9F8EE900BEB0EA /* BPTestViewController.m */,
+			);
+			path = TestSynx;
+			sourceTree = "<group>";
+		};
+		FFDD35E01C9FA00900BEB0EA /* another */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD35E11C9FA05300BEB0EA /* ABTestObject.h */,
+				FFDD35E21C9FA05300BEB0EA /* ABTestObject.m */,
+			);
+			path = another;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFDD35D31C9F8E9E00BEB0EA /* Build configuration list for PBXNativeTarget "BestPracitcesiOS" */;
 			buildPhases = (
+				F72BFEF52677CB344B1E2C0A /* Check Pods Manifest.lock */,
 				FFDD35A21C9F8E9D00BEB0EA /* Sources */,
 				FFDD35A31C9F8E9D00BEB0EA /* Frameworks */,
 				FFDD35A41C9F8E9D00BEB0EA /* Resources */,
+				C23D8A15A7B2F6A307B7F29B /* Embed Pods Frameworks */,
+				C95BE1177A0EE6417ADBE485 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +331,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C23D8A15A7B2F6A307B7F29B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95BE1177A0EE6417ADBE485 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72BFEF52677CB344B1E2C0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFDD35A21C9F8E9D00BEB0EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC94FCB1C9FA692001BC13A /* NewObj.m in Sources */,
 				FFDD35B11C9F8E9E00BEB0EA /* ViewController.m in Sources */,
 				FFDD35AE1C9F8E9E00BEB0EA /* AppDelegate.m in Sources */,
+				FFDD35E31C9FA05300BEB0EA /* ABTestObject.m in Sources */,
+				FFDD35DF1C9F8EE900BEB0EA /* BPTestViewController.m in Sources */,
 				FFDD35AB1C9F8E9E00BEB0EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +431,7 @@
 				FFDD35B31C9F8E9E00BEB0EA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		FFDD35B71C9F8E9E00BEB0EA /* LaunchScreen.storyboard */ = {
@@ -322,6 +440,7 @@
 				FFDD35B81C9F8E9E00BEB0EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +528,7 @@
 		};
 		FFDD35D41C9F8E9E00BEB0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BAC492EF23B69553708AFD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BestPracitcesiOS/Info.plist;
@@ -420,6 +540,7 @@
 		};
 		FFDD35D51C9F8E9E00BEB0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87661F57288C661DDEC93CC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BestPracitcesiOS/Info.plist;
@@ -496,6 +617,7 @@
 				FFDD35D51C9F8E9E00BEB0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDD35D61C9F8E9E00BEB0EA /* Build configuration list for PBXNativeTarget "BestPracitcesiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +626,7 @@
 				FFDD35D81C9F8E9E00BEB0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDD35D91C9F8E9E00BEB0EA /* Build configuration list for PBXNativeTarget "BestPracitcesiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +635,7 @@
 				FFDD35DB1C9F8E9E00BEB0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
