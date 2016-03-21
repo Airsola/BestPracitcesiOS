@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4132708041D85FAFD12E72DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8115E2E6A37E21B189EB257 /* libPods.a */; };
+		FFC39EE71C9FCB820024306A /* SLGithubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC39EE61C9FCB820024306A /* SLGithubModel.m */; };
 		FFC94FCB1C9FA692001BC13A /* NewObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC94FCA1C9FA692001BC13A /* NewObj.m */; };
 		FFDD35AB1C9F8E9E00BEB0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35AA1C9F8E9E00BEB0EA /* main.m */; };
 		FFDD35AE1C9F8E9E00BEB0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD35AD1C9F8E9E00BEB0EA /* AppDelegate.m */; };
@@ -42,6 +43,8 @@
 		42BAC492EF23B69553708AFD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A8115E2E6A37E21B189EB257 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87661F57288C661DDEC93CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FFC39EE51C9FCB820024306A /* SLGithubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGithubModel.h; sourceTree = "<group>"; };
+		FFC39EE61C9FCB820024306A /* SLGithubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGithubModel.m; sourceTree = "<group>"; };
 		FFC94FC91C9FA692001BC13A /* NewObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewObj.h; sourceTree = "<group>"; };
 		FFC94FCA1C9FA692001BC13A /* NewObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewObj.m; sourceTree = "<group>"; };
 		FFDD35A61C9F8E9E00BEB0EA /* BestPracitcesiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPracitcesiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +112,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FFC39EE41C9FCB470024306A /* TestGithub */ = {
+			isa = PBXGroup;
+			children = (
+				FFC39EE51C9FCB820024306A /* SLGithubModel.h */,
+				FFC39EE61C9FCB820024306A /* SLGithubModel.m */,
+			);
+			path = TestGithub;
+			sourceTree = "<group>";
+		};
 		FFC94FC81C9FA676001BC13A /* AfterCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +157,7 @@
 			children = (
 				FFC94FC81C9FA676001BC13A /* AfterCocoaPods */,
 				FFDD35A91C9F8E9E00BEB0EA /* Supporting Files */,
+				FFC39EE41C9FCB470024306A /* TestGithub */,
 				FFDD35DC1C9F8EC200BEB0EA /* TestSynx */,
 				FFDD35E01C9FA00900BEB0EA /* another */,
 				FFDD35AC1C9F8E9E00BEB0EA /* AppDelegate.h */,
@@ -389,6 +402,7 @@
 				FFDD35AE1C9F8E9E00BEB0EA /* AppDelegate.m in Sources */,
 				FFDD35E31C9FA05300BEB0EA /* ABTestObject.m in Sources */,
 				FFDD35DF1C9F8EE900BEB0EA /* BPTestViewController.m in Sources */,
+				FFC39EE71C9FCB820024306A /* SLGithubModel.m in Sources */,
 				FFDD35AB1C9F8E9E00BEB0EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
